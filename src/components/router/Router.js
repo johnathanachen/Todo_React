@@ -12,7 +12,7 @@ export class Router extends Component {
 
     handleLinkClick = (route) => {
         this.setState({route})
-        history.pushState(null, '', route)
+       // history.pushState(null, '', route)
     }
 
     static childContextTypes = {
